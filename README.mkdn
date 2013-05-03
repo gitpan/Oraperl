@@ -4,7 +4,7 @@ Oraperl - \[DEPRECATED\] Perl access to Oracle databases for old oraperl scripts
 
 # VERSION
 
-version 1.50
+version 1.51
 
 # SYNOPSIS
 
@@ -617,7 +617,7 @@ redistribute it and/or modify it under the same terms as Perl 5.
 
 - Tim Bunce <timb@cpan.org>
 - John Scoles
-- Yanick Champoux <yanick@cpan.org>
+- Yanick Champoux <yanick@cpan.org> [![endorse](http://api.coderwall.com/yanick/endorsecount.png)](http://coderwall.com/yanick)
 
 # COPYRIGHT AND LICENSE
 

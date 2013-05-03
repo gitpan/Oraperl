@@ -6,7 +6,7 @@
       "Yanick Champoux <yanick@cpan.org>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 4.300021, CPAN::Meta::Converter version 2.120921",
+   "generated_by" : "Dist::Zilla version 4.300034, CPAN::Meta::Converter version 2.120921",
    "license" : [
       "perl_5"
    ],
@@ -26,6 +26,11 @@
             "Module::Build" : "0.3601"
          }
       },
+      "develop" : {
+         "requires" : {
+            "version" : "0.9901"
+         }
+      },
       "runtime" : {
          "requires" : {
             "DBD::Oracle" : "0",
@@ -38,9 +43,9 @@
       },
       "test" : {
          "requires" : {
-            "Carp" : "0",
-            "Scalar::Util" : "0",
-            "Test::More" : "0.94",
+            "File::Find" : "0",
+            "File::Temp" : "0",
+            "Test::More" : "0.88",
             "warnings" : "0"
          }
       }
@@ -48,7 +53,7 @@
    "provides" : {
       "Oraperl" : {
          "file" : "lib/Oraperl.pm",
-         "version" : "1.50"
+         "version" : "1.51"
       }
    },
    "release_status" : "stable",
@@ -60,11 +65,11 @@
       "homepage" : "http://search.cpan.org/dist/Oraperl/",
       "repository" : {
          "type" : "git",
-         "url" : "https://github.com/yanick/Oraperl.git",
-         "web" : "https://github.com/yanick/Oraperl"
+         "url" : "https://github.com/pythian/Oraperl.git",
+         "web" : "https://github.com/pythian/Oraperl"
       }
    },
-   "version" : "1.50",
+   "version" : "1.51",
    "x_authority" : "cpan:PYTHIAN"
 }
 

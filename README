@@ -3,7 +3,7 @@ NAME
     scripts
 
 VERSION
-    version 1.50
+    version 1.51
 
 SYNOPSIS
       eval 'use Oraperl; 1;' || die $@ if $] >= 5;  # ADD THIS LINE TO OLD SCRIPTS
